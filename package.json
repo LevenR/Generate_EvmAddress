@@ -1,0 +1,24 @@
+{
+  "name": "stbtc-distribute",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "generate_random": "ts-node src/addressByRandom.ts",
+    "generate_mnemonic": "ts-node src/addressByMnemonic.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "ethers": "^6.13.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
